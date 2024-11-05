@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servizi di Cartongesso e Imbiancatura</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome Azienda - Libero Professionista</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Nome del Professionista</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">Servizi
-          <ul class="dropdown-content">
-            <li><a href="cartongesso.html">Cartongesso</a></li>
-            <li><a href="imbiancatura.html">Imbiancatura</a></li>
-            <li><a href="altro.html">Altri Servizi</a></li>
-          </ul>
-        </li>
-        <li><a href="contatti.html">Contatti</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section class="intro">
-      <h2>Benvenuti nel sito di [Nome Professionista]</h2>
-      <p>Siamo specializzati in servizi di cartongesso, imbiancatura e altre lavorazioni professionali.</p>
+    <!-- Header con il titolo e menu di navigazione -->
+    <header>
+        <h1>Nome Azienda</h1>
+        <p class="slogan">Qualità e Professionalità a portata di mano</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li class="dropdown">
+                    <a href="pages/servizi.html">Servizi</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pages/imbiancatura.html">Imbiancatura</a></li>
+                        <li><a href="pages/cartongesso.html">Cartongesso</a></li>
+                        <li><a href="pages/montaggio-mobili.html">Montaggio Mobili</a></li>
+                        <li><a href="pages/finiture.html">Finiture</a></li>
+                    </ul>
+                </li>
+                <li><a href="pages/contatti.html">Contatti</a></li>
+                <li><a href="pages/galleria.html">Galleria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sezione Home -->
+    <section id="home">
+        <h2>Benvenuti in Nome Azienda</h2>
+        <p>Siamo un team di professionisti esperti nel settore edile, specializzati in servizi di imbiancatura, cartongesso, montaggio mobili e finiture di pregio.</p>
+        <div class="gallery">
+            <img src="images/lavoratore1.jpg" alt="Lavoratore 1">
+            <img src="images/mezzo.jpg" alt="Mezzo aziendale">
+            <img src="images/strumento.jpg" alt="Strumento di lavoro">
+        </div>
     </section>
 
-    <section class="servizi-lista">
-      <h3>I nostri servizi</h3>
-      <ul>
-        <li><a href="cartongesso.html">Cartongesso</a></li>
-        <li><a href="imbiancatura.html">Imbiancatura</a></li>
-        <li><a href="altro.html">Altri Servizi</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Nome del Professionista. Tutti i diritti riservati.</p>
-  </footer>
-
-  <script src="scripts.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

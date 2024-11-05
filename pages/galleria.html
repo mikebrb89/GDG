@@ -8,16 +8,42 @@
 </head>
 <body>
 
-    <header>
-        <h1>Galleria dei Lavori</h1>
+    <!-- Intestazione fissa -->
+    <header class="sticky-header">
+        <h1>Nome Azienda</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#chi-siamo">Chi Siamo</a></li>
+                <li><a href="servizi.html">Servizi</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="galleria.html" class="active">Galleria</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Sezione Galleria -->
     <section class="gallery-grid">
+        <h2>Galleria dei Lavori</h2>
+        <p>Una selezione dei nostri progetti più recenti.</p>
+
+        <!-- Griglia delle immagini -->
         <div class="gallery-item">
-            <h3>Progetto 1</h3>
-            <img src="../images/progetto1.jpg" alt="Immagine progetto 1">
+            <h3>Progetto Imbiancatura</h3>
+            <img src="../images/progetto-imbiancatura.jpg" alt="Progetto Imbiancatura">
         </div>
-        <!-- Aggiungi altre immagini come sopra -->
+        <div class="gallery-item">
+            <h3>Progetto Cartongesso</h3>
+            <img src="../images/progetto-cartongesso.jpg" alt="Progetto Cartongesso">
+        </div>
+        <div class="gallery-item">
+            <h3>Montaggio Mobili</h3>
+            <img src="../images/progetto-montaggio-mobili.jpg" alt="Montaggio Mobili">
+        </div>
+        <div class="gallery-item">
+            <h3>Finiture di Pregio</h3>
+            <img src="../images/progetto-finiture.jpg" alt="Finiture di Pregio">
+        </div>
     </section>
 
 </body>
